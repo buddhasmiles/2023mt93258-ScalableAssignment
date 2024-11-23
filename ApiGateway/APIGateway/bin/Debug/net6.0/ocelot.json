@@ -1,0 +1,104 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5039"
+  },
+  "Routes": [
+
+    // User Service - User Account
+
+    {
+      "DownstreamPathTemplate": "/api/user",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user",
+      "UpstreamHttpMethod": [ "Post", "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/login",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ]
+    },
+
+    // User Service - User Address
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/address",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/address",
+      "UpstreamHttpMethod": [ "Post", "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/address/{addressId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/address/{addressId}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ]
+    },
+
+    // User Service - User Payment
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/payment",
+      "UpstreamHttpMethod": [ "Post", "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/payment/{paymentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/payment/{paymentId}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ]
+    }
+
+    
+  ]
+}

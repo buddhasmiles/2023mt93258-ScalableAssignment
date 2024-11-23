@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rk7PIIjNrQU=",
+  "success": true,
+  "projectFilePath": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\contracts\\irepository\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepository\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\contracts\\iservices\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iservices\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\contracts\\irepository\\icustomerpaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepository\\icustomerpaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\contracts\\irepository\\icustomeraddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045E2A44-6A60-4540-BA29-6A38FF7BEBF1}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepository\\icustomeraddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\repository\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|solutionrelative:repository\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\repository\\migrations\\20231113160332_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|solutionrelative:repository\\migrations\\20231113160332_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\userservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\repository\\migrations\\repositorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F9874-A1B9-4505-A6EB-D4ECAF6CA63B}|Repository\\Repository.csproj|solutionrelative:repository\\migrations\\repositorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3909807F-1486-4C27-9F26-64BC5D206E6D}|Entities\\Entities.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\entities\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3909807F-1486-4C27-9F26-64BC5D206E6D}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\helpers\\adminaccessattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\helpers\\adminaccessattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\userservice\\userservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DE1FD8-A5FE-4E6D-873C-277C686E3DA8}|UserService\\UserService.csproj|solutionrelative:userservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICustomerPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IRepository\\ICustomerPaymentRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepository\\ICustomerPaymentRepository.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IRepository\\ICustomerPaymentRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepository\\ICustomerPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:21:38.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustomerAddressRepository.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IRepository\\ICustomerAddressRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepository\\ICustomerAddressRepository.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IRepository\\ICustomerAddressRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepository\\ICustomerAddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:21:20.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserAccountService.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IServices\\IUserAccountService.cs",
+              "RelativeDocumentMoniker": "Contracts\\IServices\\IUserAccountService.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IServices\\IUserAccountService.cs",
+              "RelativeToolTip": "Contracts\\IServices\\IUserAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:39:11.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.csproj",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T16:17:20.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IRepository\\IUserAccountRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepository\\IUserAccountRepository.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Contracts\\IRepository\\IUserAccountRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepository\\IUserAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:57:28.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "UserService\\appsettings.Development.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\appsettings.Development.json",
+              "RelativeToolTip": "UserService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T17:32:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\UserAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserAccountRepository.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\UserAccountRepository.cs",
+              "RelativeToolTip": "Repository\\UserAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:19:46.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserService\\appsettings.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\appsettings.json",
+              "RelativeToolTip": "UserService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T08:24:00.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "UserService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "UserService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-19T16:37:26.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.csproj",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T16:18:43.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20231113160332_initialMigration.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\Migrations\\20231113160332_initialMigration.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20231113160332_initialMigration.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\Migrations\\20231113160332_initialMigration.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20231113160332_initialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:03:25.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\RepositoryContext.cs",
+              "RelativeToolTip": "Repository\\RepositoryContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:57:15.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T16:57:53.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminAccessAttribute.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Helpers\\AdminAccessAttribute.cs",
+              "RelativeDocumentMoniker": "UserService\\Helpers\\AdminAccessAttribute.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Helpers\\AdminAccessAttribute.cs",
+              "RelativeToolTip": "UserService\\Helpers\\AdminAccessAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:36:01.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserAccountController.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Controllers\\UserAccountController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\UserAccountController.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Controllers\\UserAccountController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\UserAccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:54:20.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:35:26.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Startup.cs",
+              "RelativeDocumentMoniker": "UserService\\Startup.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\UserService\\Startup.cs",
+              "RelativeToolTip": "UserService\\Startup.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:35:35.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositoryContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Repository\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "RelativeToolTip": "Repository\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:03:26.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Entities\\Dtos\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\UserCreateDto.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\UserService\\Entities\\Dtos\\UserCreateDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\UserCreateDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:55:27.846Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

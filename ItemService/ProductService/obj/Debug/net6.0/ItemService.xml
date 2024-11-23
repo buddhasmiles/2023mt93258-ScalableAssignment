@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ItemService</name>
+    </assembly>
+    <members>
+        <member name="T:AProductService.Controllers.ProductController">
+            <summary>
+            Handles all the operations for the product
+            </summary>
+        </member>
+        <member name="M:AProductService.Controllers.ProductController.CreateProduct(Entities.Dtos.CreateProductDto)">
+            <summary>
+            Admins can add a product information
+            </summary>
+            <param name="newProduct"></param>
+            <response code="201">Product added successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="403">Customers don't have access to this resource</response>
+            <response code="409">Product name already exists</response>
+        </member>
+        <member name="M:AProductService.Controllers.ProductController.GetAllProducts">
+            <summary>
+            Gets all products and groups them by their category
+            </summary>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+        </member>
+        <member name="M:AProductService.Controllers.ProductController.GetProductById(System.Guid)">
+            <summary>
+            Gets a product detail by its product id
+            </summary>
+            <param name="productId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No product has been found for the given id</response>
+        </member>
+        <member name="M:AProductService.Controllers.ProductController.UpdateProduct(System.Guid,Entities.Dtos.ProductUpdateDto)">
+            <summary>
+            Updates all/some properties of the existing product by id
+            </summary>
+            <param name="productId"></param>
+            <param name="updatedProduct"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="403">Customers don't have access to this resource</response>
+            <response code="404">No product has been found for the given id</response>
+            <response code="409">Product name already exists</response>
+        </member>
+        <member name="M:AProductService.Controllers.ProductController.DeleteProduct(System.Guid)">
+            <summary>
+            Deletes a product by its id
+            </summary>
+            <param name="productId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="403">Customers don't have access to this resource</response>
+            <response code="404">No product has been found for the given id</response>
+        </member>
+        <member name="M:AProductService.Controllers.ProductController.VerifyProductIdAsList(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Checks if a product exists for the given id
+            </summary>
+            <param name="productId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="404">No product has been found for the given id</response>
+        </member>
+        <member name="T:AProductService.Helpers.AdminAccessAttribute">
+            <summary>
+            Gives access only if the user is an admin
+            </summary>
+        </member>
+        <member name="M:AProductService.Helpers.ExceptionHandlingMiddleware.HandleException(System.Int32,System.String,System.String,Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Handles all the catch block operations 
+            </summary>
+            <param name="statusCode"></param>
+            <param name="message"></param>
+            <param name="description"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

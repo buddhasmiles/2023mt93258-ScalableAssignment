@@ -1,0 +1,30 @@
+version: '3.5'
+
+services:
+  UserService:
+    image: ${DOCKER_REGISTRY-}userservice-microservice:v1
+    build:
+      context: ./UserService
+      dockerfile: Dockerfile
+    environment:
+      - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=host.docker.internal;Port=5432;Database=UserDB;Username=postgres;Password=uSHAS779957!@
+    ports:
+      - "5004:80"
+  ItemService:
+    image: ${DOCKER_REGISTRY-}itemservice-microservice:v1
+    build:
+      context: ./ItemService
+      dockerfile: Dockerfile
+    environment:
+      - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=host.docker.internal;Port=5432;Database=ItemDB;Username=postgres;Password=uSHAS779957!@
+    ports:
+      - "5054:80"
+  OrderService:
+    image: ${DOCKER_REGISTRY-}orderservice-microservice:v1
+    build:
+      context: ./OrderService
+      dockerfile: Dockerfile
+    environment:
+      - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=host.docker.internal;Port=5432;Database=OrderDB;Username=postgres;Password=uSHAS779957!@
+    ports:
+      - "5113:80"

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Entities</id>
+    <version>1.0.0</version>
+    <authors>Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="59edb269f087df4ec9de83818eaac2dcb7183794" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Bits\3rd sem\Scalable-last\Assignment\UserService\Entities\bin\Debug\net6.0\Entities.dll" target="lib\net6.0\Entities.dll" />
+  </files>
+</package>

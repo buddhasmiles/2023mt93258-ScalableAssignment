@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderService</name>
+    </assembly>
+    <members>
+        <member name="M:OrderService.Controllers.CartController.AddProductToCart(Entities.Dtos.AddToCartDto)">
+            <summary>
+            Adds a new product to the cart with its quantity
+            </summary>
+            <param name="userId"></param>
+            <param name="newProduct"></param>
+            <response code="201">Product added successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">Product may not exists/may be out of stock</response>
+        </member>
+        <member name="M:OrderService.Controllers.CartController.GetCartItemsByUserId">
+            <summary>
+            Gets complete list of product items in a cart
+            </summary>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:OrderService.Controllers.CartController.UpdateCartByUserId(Entities.Dtos.AddToCartUpdateDto)">
+            <summary>
+            Update a cart 
+            </summary>
+            <param name="wishListId"></param>
+            <param name="updatedWishList"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="400">No product has been added to the cart</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:OrderService.Controllers.OrderController.CreateOrder(Entities.Dtos.CheckOutFromCartDto)">
+            <summary>
+            Places an order by adding the products from cart
+            </summary>
+            <param name="userId"></param>
+            <param name="checkOut"></param>
+            <response code="201">Order placed successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="400">No product has been added to the cart</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No address has been found for the given id</response>
+            <response code="404">No payment information has been found</response>
+        </member>
+        <member name="M:OrderService.Controllers.OrderController.GetOrderById(System.Guid)">
+            <summary>
+            Gets an order detail by its id
+            </summary>
+            <param name="orderId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No order exists for the given id</response>
+        </member>
+        <member name="M:OrderService.Controllers.OrderController.GetAllOrderDetails">
+            <summary>
+            Gets entire order history of a user
+            </summary>
+            <param name="userId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:OrderService.Controllers.WishListController.CreateWishList(Entities.Dtos.WishListCreateDto)">
+            <summary>
+            Creates a wish list for the user
+            </summary>
+            <param name="newWishList"></param>
+            <response code="201">Wish list created successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">Product may not exists/may be out of stock</response>
+            <response code="409">Wish list name already exists</response>
+        </member>
+        <member name="M:OrderService.Controllers.WishListController.GetWishListById(System.Guid)">
+            <summary>
+            Get a wish list by its id
+            </summary>
+            <param name="wishListId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No wish list exists for the given id</response>
+        </member>
+        <member name="M:OrderService.Controllers.WishListController.GetAllWishListByUserId">
+            <summary>
+            Get all wish list details of a user
+            </summary>
+            <param name="userId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:OrderService.Controllers.WishListController.UpdateWishListById(System.Guid,Entities.Dtos.WishListUpdateDto)">
+            <summary>
+            Update a wish list 
+            </summary>
+            <param name="wishListId"></param>
+            <param name="updatedWishList"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">Product may not exists/may be out of stock</response>
+            <response code="409">Wish list name already exists</response>
+        </member>
+        <member name="M:OrderService.Controllers.WishListController.DeleteWishListById(System.Guid)">
+            <summary>
+            Deletes an entire wish list by its id
+            </summary>
+            <param name="wishListId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="404">No wish list has been found for the given id</response>
+        </member>
+        <member name="M:OrderService.Helpers.ExceptionHandlingMiddleware.HandleException(System.Int32,System.String,System.String,Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Handles all the catch block operations 
+            </summary>
+            <param name="statusCode"></param>
+            <param name="message"></param>
+            <param name="description"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

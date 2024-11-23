@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserService</name>
+    </assembly>
+    <members>
+        <member name="T:UserService.Controllers.UserAccountController">
+            <summary>
+            Handles all the user account related operations
+            </summary>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.CreateUserAccount(Entities.Dtos.UserCreateDto)">
+            <summary>
+            Creates a user account as a customer/admin
+            </summary>
+            <param name="newUserAccount"></param>
+            <response code="201">User account created successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="409">User account already exists</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.Login(Entities.Dtos.UserLogInDto)">
+            <summary>
+            Authenticates the user and returns token upon successfull authentication
+            </summary>
+            <param name="userLogIn"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.GetUserAccountById(System.Guid)">
+            <summary>
+            Get the complete user account details by user id
+            </summary>
+            <param name="id"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.GetAllUserAccount">
+            <summary>
+            Admins can get all the user account details 
+            </summary>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="403">Customers don't have access to this resource</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.UpdateUserAccountById(System.Guid,Entities.Dtos.UserUpdateDto)">
+            <summary>
+            Update user account details
+            </summary>
+            <param name="id"></param>
+            <param name="userAccount"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response> 
+            <response code="404">No user account has been found</response>
+            <response code="409">User account already exists</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.DeleteUserAccountById(System.Guid)">
+            <summary>
+            Deletes a user account by user id
+            </summary>
+            <param name="id"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response> 
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAccountController.VerifyUserId(System.Guid)">
+            <summary>
+            Checks if a user id exists in the database
+            </summary>
+            <param name="userId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="T:UserService.Controllers.UserAddressController">
+            <summary>
+            Handles all the customer delivery address related operations
+            </summary>
+        </member>
+        <member name="M:UserService.Controllers.UserAddressController.CreateAddress(System.Guid,Entities.Dtos.AddressCreateDto)">
+            <summary>
+            Stores delivery address of customer
+            </summary>
+            <param name="userId"></param>
+            <param name="address"></param>
+            <response code="201">Address added successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAddressController.GetAllAddressByUserId(System.Guid)">
+            <summary>
+            Gets all the customer delivery addresses by user id
+            </summary>
+            <param name="userId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAddressController.GetAddressByAddressId(System.Guid,System.Guid)">
+            <summary>
+            Gets an address by address id
+            </summary>
+            <param name="userId"></param>
+            <param name="addressId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No address has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAddressController.UpdateAddressByAddressId(System.Guid,System.Guid,Entities.Dtos.AddressUpdateDto)">
+            <summary>
+            Updates an address by address id
+            </summary>
+            <param name="userId"></param>
+            <param name="addressId"></param>
+            <param name="updatedAddress"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No address has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAddressController.DeleteAddressByAddressId(System.Guid,System.Guid)">
+            <summary>
+            Deletes an address by address id
+            </summary>
+            <param name="userId"></param>
+            <param name="addressId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No address has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserAddressController.VerifyAddressId(System.Guid,System.Guid)">
+            <summary>
+            Checks if the address id exists
+            </summary>
+            <param name="userId"></param>
+            <param name="addressId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="404">No address has been found</response>
+        </member>
+        <member name="T:UserService.Controllers.UserPaymentController">
+            <summary>
+            Handles all the customer payment related operations
+            </summary>
+        </member>
+        <member name="M:UserService.Controllers.UserPaymentController.CreatePaymentDetail(System.Guid,Entities.Dtos.PaymentCreateDto)">
+            <summary>
+            Stores payment details of a customer
+            </summary>
+            <param name="userId"></param>
+            <param name="newPayment"></param>
+            <response code="201">Payment detail added successfully</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="409">Payment name/value detail already exists</response>
+        </member>
+        <member name="M:UserService.Controllers.UserPaymentController.GetAllPaymentByUserId(System.Guid)">
+            <summary>
+            Gets all payment detail of the user
+            </summary>
+            <param name="userId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="204">No content has been found</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserPaymentController.GetPaymentByPaymentId(System.Guid,System.Guid)">
+            <summary>
+            Gets an payment detail by payment id
+            </summary>
+            <param name="userId"></param>
+            <param name="paymentId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No payment detail has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserPaymentController.UpdatePaymentByPaymentId(System.Guid,System.Guid,Entities.Dtos.PaymentUpdateDto)">
+            <summary>
+            Updates an payment detail by payment id
+            </summary>
+            <param name="userId"></param>
+            <param name="paymentId"></param>
+            <param name="updatedPayment"></param>
+            <response code="200">Successfull operation</response>
+            <response code="400">Given input is invalid</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No payment detail has been found</response>
+            <response code="409">Payment name/value detail already exists</response>
+        </member>
+        <member name="M:UserService.Controllers.UserPaymentController.DeletePaymentByPaymentId(System.Guid,System.Guid)">
+            <summary>
+            Deletes a payment detail by its id
+            </summary>
+            <param name="userId"></param>
+            <param name="paymentId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="401">Lacks valid authentication credentials</response>
+            <response code="404">No user account has been found</response>
+            <response code="404">No address has been found</response>
+        </member>
+        <member name="M:UserService.Controllers.UserPaymentController.VerifyPaymentId(System.Guid,System.Guid)">
+            <summary>
+            Checks if the payment id exists
+            </summary>
+            <param name="userId"></param>
+            <param name="paymentId"></param>
+            <response code="200">Successfull operation</response>
+            <response code="404">No address has been found</response>
+        </member>
+        <member name="T:User_Service.Helpers.AdminAccessAttribute">
+            <summary>
+            Gives access only if the user is an admin
+            </summary>
+        </member>
+        <member name="M:User_Service.Helpers.ExceptionHandlingMiddleware.HandleException(System.Int32,System.String,System.String,Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Handles all the catch block operations 
+            </summary>
+            <param name="statusCode"></param>
+            <param name="message"></param>
+            <param name="description"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

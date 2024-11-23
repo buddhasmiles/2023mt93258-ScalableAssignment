@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\orderservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\orderservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47C54DDC-40CB-4385-B78F-CC48ACD21E2B}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\repository\\migrations\\20231113151617_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47C54DDC-40CB-4385-B78F-CC48ACD21E2B}|Repository\\Repository.csproj|solutionrelative:repository\\migrations\\20231113151617_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\orderservice\\apurchaseservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70A63C6-3A90-46E2-88D4-4BADC6851E1D}|APurchaseService\\OrderService.csproj|solutionrelative:apurchaseservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APurchaseService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APurchaseService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T09:38:07.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\OrderService.csproj",
+              "RelativeDocumentMoniker": "APurchaseService\\OrderService.csproj",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\OrderService.csproj",
+              "RelativeToolTip": "APurchaseService\\OrderService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T09:38:03.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\appsettings.json",
+              "RelativeDocumentMoniker": "APurchaseService\\appsettings.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\appsettings.json",
+              "RelativeToolTip": "APurchaseService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T09:33:46.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Startup.cs",
+              "RelativeDocumentMoniker": "APurchaseService\\Startup.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Startup.cs",
+              "RelativeToolTip": "APurchaseService\\Startup.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:17:22.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20231113151617_initialMigration.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\Repository\\Migrations\\20231113151617_initialMigration.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20231113151617_initialMigration.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\Repository\\Migrations\\20231113151617_initialMigration.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20231113151617_initialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:15:52.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WishListController.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Controllers\\WishListController.cs",
+              "RelativeDocumentMoniker": "APurchaseService\\Controllers\\WishListController.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Controllers\\WishListController.cs",
+              "RelativeToolTip": "APurchaseService\\Controllers\\WishListController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:15:34.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "APurchaseService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "APurchaseService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:15:32.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Program.cs",
+              "RelativeDocumentMoniker": "APurchaseService\\Program.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Program.cs",
+              "RelativeToolTip": "APurchaseService\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:14:56.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "APurchaseService\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\OrderService\\APurchaseService\\Controllers\\CartController.cs",
+              "RelativeToolTip": "APurchaseService\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:12:47.558Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

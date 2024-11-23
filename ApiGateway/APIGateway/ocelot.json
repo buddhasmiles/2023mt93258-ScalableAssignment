@@ -1,0 +1,197 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5039"
+  },
+  "Routes": [
+    // User Service - User Account
+
+    {
+      "DownstreamPathTemplate": "/api/user",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user",
+      "UpstreamHttpMethod": ["Post", "Get"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/login",
+      "UpstreamHttpMethod": ["Post"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
+      "UpstreamHttpMethod": ["Get", "Put", "Delete"]
+    },
+
+    // User Service - User Address
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/address",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/address",
+      "UpstreamHttpMethod": ["Post", "Get"]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/address/{addressId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/address/{addressId}",
+      "UpstreamHttpMethod": ["Get", "Put", "Delete"]
+    },
+
+    // User Service - User Payment
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/payment",
+      "UpstreamHttpMethod": ["Post", "Get"]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/user/{userId}/payment/{paymentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5004"
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}/payment/{paymentId}",
+      "UpstreamHttpMethod": ["Get", "Put", "Delete"]
+    },
+
+    // Product Service
+
+    {
+      "DownstreamPathTemplate": "/api/product",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5054"
+        }
+      ],
+      "UpstreamPathTemplate": "/product",
+      "UpstreamHttpMethod": ["Post", "Get"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/product/{productId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5054"
+        }
+      ],
+      "UpstreamPathTemplate": "/product/{productId}",
+      "UpstreamHttpMethod": ["Get", "Put", "Delete"]
+    },
+
+    // Purchase Service - Wish List
+
+    {
+      "DownstreamPathTemplate": "/api/wish-list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5113"
+        }
+      ],
+      "UpstreamPathTemplate": "/wish-list",
+      "UpstreamHttpMethod": ["Post", "Get"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/wish-list/{wishListId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5113"
+        }
+      ],
+      "UpstreamPathTemplate": "/wish-list/{wishListId}",
+      "UpstreamHttpMethod": ["Get", "Put", "Delete"]
+    },
+
+    // Purchase Service - Cart
+
+    {
+      "DownstreamPathTemplate": "/api/cart",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5113"
+        }
+      ],
+      "UpstreamPathTemplate": "/cart",
+      "UpstreamHttpMethod": ["Post", "Get", "Put"]
+    },
+
+    // Purchase Service - Order
+
+    {
+      "DownstreamPathTemplate": "/api/order",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5113"
+        }
+      ],
+      "UpstreamPathTemplate": "/order",
+      "UpstreamHttpMethod": ["Post", "Get"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/order/{orderId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5113"
+        }
+      ],
+      "UpstreamPathTemplate": "/order/{orderId}",
+      "UpstreamHttpMethod": ["Get"]
+    }
+  ]
+}

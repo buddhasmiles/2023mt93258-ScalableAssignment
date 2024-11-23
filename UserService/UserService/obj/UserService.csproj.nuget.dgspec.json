@@ -1,0 +1,514 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\UserService\\UserService.csproj": {}
+  },
+  "projects": {
+    "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jeebu_Karthikeyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jeebu_Karthikeyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jeebu_Karthikeyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jeebu_Karthikeyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\UserService\\UserService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\UserService\\UserService.csproj",
+        "projectName": "UserService",
+        "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\UserService\\UserService.csproj",
+        "packagesPath": "C:\\Users\\Jeebu_Karthikeyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\UserService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jeebu_Karthikeyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Repository\\Repository.csproj"
+              },
+              "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Services\\Services.csproj": {
+                "projectPath": "C:\\Bits\\3rd sem\\Scalable-last\\ScalableService-Assignment\\UserService\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

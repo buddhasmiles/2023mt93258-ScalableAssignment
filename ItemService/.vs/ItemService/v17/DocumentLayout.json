@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\productservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|solutionrelative:productservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5CDF6-CFA5-46A2-80C2-6BD560CE3C60}|Repository\\Repository.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5CDF6-CFA5-46A2-80C2-6BD560CE3C60}|Repository\\Repository.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EEADA54-D3A4-4E77-830B-3912EA6F25A8}|Services\\Services.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EEADA54-D3A4-4E77-830B-3912EA6F25A8}|Services\\Services.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F883BB96-B932-4192-B85A-93AB67A1B031}|Contracts\\Contracts.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\contracts\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F883BB96-B932-4192-B85A-93AB67A1B031}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1E0100-994B-43D7-98F6-FF5FF795BDDF}|Entities\\Entities.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\entities\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1E0100-994B-43D7-98F6-FF5FF795BDDF}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\productservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|solutionrelative:productservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|solutionrelative:productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|c:\\bits\\3rd sem\\scalable-last\\assignment\\itemservice\\productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DCCE164-32C2-4E4A-8281-A6834A12194D}|ProductService\\ItemService.csproj|solutionrelative:productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Contracts\\IRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Contracts\\IRepository\\IProductRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepository\\IProductRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADgvygAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:12:09.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:12:27.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAjwEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:11:04.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService\\Program.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Program.cs",
+              "RelativeToolTip": "ProductService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:49:08.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Entities\\Dtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\Entities\\Dtos\\CreateProductDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\CreateProductDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:41:34.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductService\\appsettings.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\appsettings.json",
+              "RelativeToolTip": "ProductService\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T07:46:51.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Startup.cs",
+              "RelativeDocumentMoniker": "ProductService\\Startup.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Startup.cs",
+              "RelativeToolTip": "ProductService\\Startup.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwFUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:47:38.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductService\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductService\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:09:50.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProductService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Bits\\3rd sem\\Scalable-last\\Assignment\\ItemService\\ProductService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProductService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T20:04:34.044Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
